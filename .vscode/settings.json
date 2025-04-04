@@ -1,17 +1,24 @@
 {
-  "sqltools.connections": [
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "fahrtenbuch",
-      "database": "fahrtenbuch",
-      "username": "user",
-      "password": "1234"
-    }
-  ],
-  "dependi.rust.lockFileEnabled": true,
-  "dependi.npm.lockFileEnabled": true,
-  "rust-analyzer.checkOnSave": false
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "fahrtenbuch",
+			"database": "fahrtenbuch",
+			"username": "user",
+			"password": "1234"
+		}
+	],
+
+	"dependi.rust.lockFileEnabled": true,
+	"dependi.npm.lockFileEnabled": true,
+	"rust-analyzer.checkOnSave": false,
+
+	"github.copilot.chat.codeGeneration.instructions": [
+		{
+			"file": "./.vscode/daisyui.md"
+		}
+	]
 }
