@@ -27,21 +27,21 @@ opt-level = 3
 
 [dependencies]
 argon2 = "0.5.3"
-axum = "0.7.7"
-chrono = { version = "0.4.38", features = ["serde"] }
+axum = "0.8.3"
+chrono = { version = "0.4.40", features = ["serde"] }
 dotenvy = "0.15.7"
-regex = "1.11.0"
-serde = { version = "1.0.210", features = ["derive"] }
-serde_json = "1.0.128"
-sqlx = { version = "0.8.2", features = [
+regex = "1.11.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+sqlx = { version = "0.8.3", features = [
     "postgres",
     "runtime-tokio-rustls",
     "macros",
     "chrono",
     "uuid",
 ] }
-tokio = { version = "1.40.0", features = ["full"] }
-tower-http = { version = "0.6.1", features = ["full"] }
-tracing = "0.1.40"
-tracing-subscriber = "0.3.18"
-uuid = { version = "1.10.0", features = ["serde"] }
+tokio = { version = "1.44.1", features = ["full"] }
+tower-http = { version = "0.6.2", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+uuid = { version = "1.16.0", features = ["serde"] }
